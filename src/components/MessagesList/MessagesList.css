@@ -1,0 +1,33 @@
+.MessageList {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	height: 100%;
+	overflow-y: scroll;
+	display: block; 
+}
+
+.MessageList li {
+	color: #fff;
+	margin-bottom: 10px;
+}
+.MessageList p {
+	margin: 0;
+}
+.userId {
+	font-size: 11px;
+	color: #000;
+	opacity: 0.8
+	margin-bottom2px;
+}
+
+.userText {
+	background: #5EA3D0;
+	padding: 5px;
+	border-radius: 4px;
+	display: inline-block;
+}
